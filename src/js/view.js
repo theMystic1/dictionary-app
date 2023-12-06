@@ -1,4 +1,5 @@
 import image from '../images/Oval.svg';
+import windIcon from '../images/icon-new-window.svg';
 import play from '../images/icon-play.svg';
 import spinner from '../images/spinner-svgrepo-com.svg';
 
@@ -283,7 +284,7 @@ class View {
              this._data.sourceUrls[0]
            }
          </a>
-         <img src="/src/images/icon-new-window.svg" alt="" />
+         <img src="${windIcon}" alt="" />
        </span>
      </span>
 
