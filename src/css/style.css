@@ -54,6 +54,10 @@ body {
   cursor: pointer;
 }
 
+.audion-icon {
+  cursor: pointer;
+}
+
 .font-type {
   font-size: 1.125rem;
   font-weight: 700;
