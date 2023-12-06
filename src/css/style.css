@@ -32,7 +32,7 @@ html {
 
 body {
   background-color: var(--primary--color);
-  font-family: "Inter";
+  font-family: 'Inter';
 }
 
 .main {
@@ -47,9 +47,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.head {
 }
 
 .head-span {
