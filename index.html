@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/media.css" />
+    <script type="module" src="./src/js/controller.js"></script>
+
+    <title>Frontend Mentor | Dictionary web app</title>
+  </head>
+  <body class="">
+    <main class="main">
+      <nav class="nav">
+        <div class="head">
+          <img src="/src/images/logo.svg" alt="" />
+
+          <span class="head-span head__span">
+            <p class="font-type font-selected">
+              <span class="sel-font-name"> Sans Serif </span>
+              <span class="arr_icon">
+                <img src="/src/images/icon-arrow-down.svg" alt="" />
+              </span>
+            </p>
+
+            <span class="toggle--mode">
+              <span class="toggle_mode">
+                <div class="mode"></div>
+              </span>
+              <span class="moon">
+                <img
+                  class="moon--norm"
+                  src="/src/images/icon-moon.svg"
+                  alt=""
+                />
+                <img
+                  class="moon--active_dark hidden"
+                  src="/src/images/icon-moonactive.svg"
+                  alt=""
+                />
+              </span>
+            </span>
+          </span>
+        </div>
+      </nav>
+      <div class="fonts hidden">
+        <ul class="font-styles">
+          <li class="font" data-tog="Sans Serif">Sans Serif</li>
+          <li class="font" data-tog="Serif">Serif</li>
+          <li class="font" data-tog="Mono">Mono</li>
+        </ul>
+      </div>
+
+      <form class="form">
+        <input
+          class="form__field"
+          type="text"
+          placeholder="Search for any word..."
+        />
+        <img class="search" src="/src/images/icon-search.svg" alt="" />
+        <p class="error-mesg">Whoops, can't be empty</p>
+      </form>
+
+      <article class="main--container">
+        <!-- <span class="searched-word-audio"> </span>
+
+        <div class="speech-fig part--speech"></div>
+
+        <article class="meaning__details">
+          <div class="meaning--details">
+            <p class="p_mean">Meaning</p>
+
+            <ul class="meanings"></ul>
+          </div>
+        </article>
+
+        <span class="synonyms"> </span>
+
+        <div class="speech-fig fig--speech-2"></div>
+
+        <article class="meaning__details meaning-synonym">
+          <div class="meaning--details meaning--details-synonyms">
+            <p class="p_mean">Meaning</p>
+
+            <ul class="meanings verb-meanings"></ul>
+          </div>
+        </article> -->
+
+        <!-- <div class="error-container">
+          <span class="emoji"> ☹️ </span>
+
+          <h2 class="error-title">No Definitions Found</h2>
+
+          <p class="error-message">
+            Sorry pal, we couldn't find definitions for the word you were
+            looking for you can try the search again at later time or head to
+            the web instead.
+          </p>
+        </div> -->
+
+        <!-- <div class="spinner">
+          <img src="/src/images/spinner-svgrepo-com.svg" alt="" />
+        </div> -->
+        <!-- <footer class="footer"></footer> -->
+      </article>
+    </main>
+  </body>
+</html>

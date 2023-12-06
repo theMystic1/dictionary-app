@@ -1,0 +1,50 @@
+@media (max-width: 75em) {
+  .fonts {
+    right: 35rem;
+  }
+}
+@media (max-width: 57.5em) {
+  .fonts {
+    right: 10rem;
+  }
+}
+/* @media (max-width: 75em) {
+  .fonts {
+    right: 35rem;
+  }
+} */
+
+@media (max-width: 37.5em) {
+  .main {
+    padding: 2.4rem;
+  }
+  .word {
+    font-size: 2.8rem;
+  }
+  .fonts {
+    right: 5rem;
+  }
+}
+
+@media (max-width: 26.3em) {
+  .main {
+    padding: 2.4rem 1.2rem;
+  }
+  .main--container {
+    padding: 0;
+  }
+  .word {
+    font-size: 2rem;
+  }
+  .audion-icon {
+    width: 4rem;
+  }
+
+  .footer-det {
+    padding: 0;
+    display: block;
+  }
+  .meanings {
+    padding: 2rem 1rem;
+  }
+}
