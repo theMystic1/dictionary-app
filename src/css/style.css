@@ -163,9 +163,8 @@ body {
   right: 5rem;
 }
 
-.form input:active {
+.form input:focus {
   border: 0.1rem solid var(--purple-color);
-  outline: auto;
 }
 
 .error-mesg {
